@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const ButtonContainer = styled.button`
-color: var(--mainWhite);
+color:var(--mainWhite);
 text-transform:capitalize;
 font-size: 1.4rem;
-background:transparent;
-border-bottom: 1px solid var(--mainRed);
+background-color: var(--mainBlack);
 border-radius: 0.2rem;
 padding: 0.2rem 0.5rem;
 cursor:pointer;

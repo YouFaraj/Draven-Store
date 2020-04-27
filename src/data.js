@@ -61,7 +61,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Mecha Draven",
+    title: "Mecha Kingdoms Draven",
     img: "img/product-6.png",
     price: 30,
     company: "apple",

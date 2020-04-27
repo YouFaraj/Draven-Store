@@ -11,12 +11,14 @@ body{
   font-family: 'Oswald', sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
+  background-image: url(https://i.imgur.com/vV72wlt.jpg) !important;
 }
 
 .text-title {
   font-family: 'Permanent Marker', cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  color: var(--mainWhite);
 }
 
 .text-red {
