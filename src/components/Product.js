@@ -37,7 +37,6 @@ export default class Product extends Component {
                        <span className="mr-1">$</span>
                        {price}
                    </h5>
-
                </div>
                </div>
            </ProductWrapper>
