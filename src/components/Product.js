@@ -47,15 +47,18 @@ export default class Product extends Component {
 
 const ProductWrapper = styled.div`
 
+
 .card{
     border-color: transparent;
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 }
 
 .card-footer{
     background:transparent;
     border-top:transparet;
-    transition: all 1s linear;
+    transition: all 0.2s linear;
+    background-color: var(--mainDark);
+    color: var(--mainWhite);
 }
 &:hover{
     .card{
@@ -63,7 +66,7 @@ const ProductWrapper = styled.div`
         box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
     }
     .card-footer{
-        background:rgba(247,247,247);
+        background-color: var(--mainDark);
     }
 }
 
@@ -72,7 +75,7 @@ const ProductWrapper = styled.div`
     overflow: hidden;
 }
 .card-img-top{
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 }
 
 .img-container:hover .card-img-top{
@@ -94,7 +97,7 @@ const ProductWrapper = styled.div`
 
 .img-container:hover .cart-btn{
     transform:translate(0,0);
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 }
 
 .card-btn:hover{
