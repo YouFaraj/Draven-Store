@@ -4,6 +4,7 @@
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
   --mainYellow:#ffa400;
+  --mainRed:#F64A4A;
 }
 
 body{
@@ -18,8 +19,8 @@ body{
   text-transform: uppercase;
 }
 
-.text-blue {
-  color: var(--mainBlue);
+.text-red {
+  color: var(--mainRed);
 }
 
 .text-bright {

@@ -35,11 +35,15 @@ export default class NavBar extends React.Component{
 
 
 const NavWrapper = styled.nav`
-background: var(--mainBlue);
+background: var(--mainDark);
  .nav-link{
     color:var(--mainWhite) !important;
     font-size:1.3rem;
     text-transform:capitalize;
+    border-radius: 0.2rem;
+    &:hover{
+        background:var(--mainRed);
+        }
     }
- }
+ 
 `
